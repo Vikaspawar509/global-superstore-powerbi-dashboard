@@ -27,29 +27,6 @@ This dashboard helps answer key business questions:
 
 ---
 
-## 📁 Repository Structure
-
-```
-Dashboard/
-    Global Superstore - Power BI Project.pbix
-
-Data/
-    orders.xlsx
-    people.xlsx
-    returns.xlsx
-
-Pictures/
-    Executive_Summary.png
-    Sales and Profit Analysis.png
-    Product & Category Performance.png
-    Customer & Segment Analysis.png
-
-LICENSE
-README.md
-```
-
----
-
 # 📸 Dashboard Preview
 
 ---
