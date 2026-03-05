@@ -47,7 +47,7 @@ This dashboard helps answer key business questions:
 
 ## 2️⃣ Sales & Profit Analysis
 
-![Sales and Profit Analysis](Pictures/Sales and Profit Analysis.png)
+![Sales and Profit Analysis](Pictures/Sales_and_Profit_Analysis.png)
 
 **Insights:**
 - Monthly sales and profit trend
@@ -59,7 +59,7 @@ This dashboard helps answer key business questions:
 
 ## 3️⃣ Product & Category Performance
 
-![Product & Category Performance](Pictures/Product & Category Performance.png)
+![Product & Category Performance](Pictures/Product_and_Category_Performance.png)
 
 **Insights:**
 - Product profitability distribution
@@ -71,7 +71,7 @@ This dashboard helps answer key business questions:
 
 ## 4️⃣ Customer & Segment Analysis
 
-![Customer & Segment Analysis](Pictures/Customer & Segment Analysis.png)
+![Customer & Segment Analysis](Pictures/Customer_and_Segment_Analysis.png)
 
 **Insights:**
 - Top 10 customers by revenue
