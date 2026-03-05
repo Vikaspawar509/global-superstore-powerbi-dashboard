@@ -1,117 +1,121 @@
-# global-superstore-powerbi-dashboard
-This project presents an interactive business intelligence dashboard built using Power BI to analyze the Global Superstore retail dataset. The objective of the project is to uncover key insights related to sales performance, product profitability, regional trends, and customer behavior.x``
+# Global Superstore Power BI Dashboard
+
+An interactive Business Intelligence dashboard built using **Power BI** to analyze the Global Superstore retail dataset.
+
+This project provides insights into sales performance, product profitability, regional contribution, and customer behavior from 2020–2023.
 
 ---
 
-## Business Problem
+## 🔗 Live Interactive Dashboard
 
-Retail companies generate large volumes of transaction data. Without proper analytics, it becomes difficult to understand:
+👉 **View Live Dashboard Here:**  
+https://app.powerbi.com/groups/me/reports/0a4f249e-3ee7-42cf-84b5-fec2c9d4c784?ctid=4ad56207-f4a7-403b-b32a-65acc80542e1&pbi_source=linkShare
 
-- Which products generate the most revenue and profit
-- Which regions contribute the highest sales
-- Which customer segments drive business growth
-- How sales and profit trends change over time
-
-This Power BI dashboard helps solve these challenges by providing a centralized analytical view of business performance.
+> Note: If Publish to Web is enabled, the dashboard will open directly. Otherwise, Power BI login may be required.
 
 ---
 
-## Dataset Information
+## 📊 Project Overview
 
-Dataset Name: Global Superstore  
+This dashboard helps answer key business questions:
 
-Time Period: 2020 – 2023  
-
-Total Records: Approximately 10,000 orders  
-
-Number of Customers: Approximately 800  
-
-Currency Used: USD ($)
-
-The dataset contains information about:
-
-- Orders
-- Sales
-- Profit
-- Product categories
-- Customer segments
-- Geographic regions
+- Which product categories generate the highest profit?
+- Which regions contribute the most revenue?
+- Who are the most valuable customers?
+- How do sales and profit trend over time?
+- Which segments drive business growth?
 
 ---
 
-## Dashboard Pages
+## 📁 Repository Structure
 
-### Executive Overview
+```
+Dashboard/
+    Global Superstore - Power BI Project.pbix
 
-This page provides a high-level summary of business performance including:
+Data/
+    orders.xlsx
+    people.xlsx
+    returns.xlsx
 
-- Total Sales
-- Total Profit
-- Profit Margin
-- Total Orders
-- Total Customers
-- Sales by Region
-- Monthly Sales Trends
-- Top Profitable Products
+Pictures/
+    Executive_Summary.png
+    Sales and Profit Analysis.png
+    Product & Category Performance.png
+    Customer & Segment Analysis.png
 
----
-
-### Sales and Profit Analysis
-
-This page focuses on analyzing performance trends over time.
-
-Key visualizations include:
-
-- Sales and profit trends by month
-- Category contribution to total sales
-- Profit margin comparison by region and category
-
-This analysis helps identify seasonal patterns and key revenue drivers.
+LICENSE
+README.md
+```
 
 ---
 
-### Product and Category Performance
-
-This section evaluates product profitability and category performance.
-
-It includes:
-
-- Product profitability analysis
-- Top selling products
-- Sales distribution across categories
-- Profit by sub-category
-
-This helps businesses identify high-performing and underperforming products.
+# 📸 Dashboard Preview
 
 ---
 
-### Customer and Segment Analysis
+## 1️⃣ Executive Summary
 
-This section explores customer purchasing behavior.
+![Executive Summary](Pictures/Executive_Summary.png)
 
-Key insights include:
+**Key Highlights:**
+- Total Sales: $2.33M
+- Total Profit: $292K
+- Profit Margin: 13%
+- 800 Customers | 5K Orders
+- Region-wise contribution analysis
+- Top 5 profitable products
 
-- Top customers by sales
-- Profit margin by customer
-- Segment-wise revenue contribution
-- Average order value
+---
+
+## 2️⃣ Sales & Profit Analysis
+
+![Sales and Profit Analysis](Pictures/Sales and Profit Analysis.png)
+
+**Insights:**
+- Monthly sales and profit trend
+- Category contribution comparison
+- Profit margin by country and category
+- Seasonal performance patterns
+
+---
+
+## 3️⃣ Product & Category Performance
+
+![Product & Category Performance](Pictures/Product & Category Performance.png)
+
+**Insights:**
+- Product profitability distribution
+- Top 10 products by sales
+- Category-level sales comparison
+- Sub-category profit breakdown
+
+---
+
+## 4️⃣ Customer & Segment Analysis
+
+![Customer & Segment Analysis](Pictures/Customer & Segment Analysis.png)
+
+**Insights:**
+- Top 10 customers by revenue
 - Revenue per customer
-
-This helps businesses identify high-value customers and repeat buyers.
-
----
-
-## Key Insights
-
-- Technology category generates the highest profit contribution.
-- Consumer segment contributes the largest share of sales and profit.
-- Some customers generate high sales but lower profit margins.
-- Sales tend to increase during the later months of the year.
-- Furniture category produces lower profit compared to other categories.
+- Orders per customer
+- Segment-wise sales contribution
+- Geographic distribution of customers
 
 ---
 
-## Tools and Technologies Used
+# 📈 Key Business Insights
+
+- Technology category generates the highest overall profit.
+- Consumer segment contributes the largest share of total sales.
+- Furniture category has lower profit margins compared to other categories.
+- Some high-revenue customers generate lower profit margins.
+- Sales show stronger growth in later months of the year.
+
+---
+
+# 🛠 Tools & Technologies Used
 
 - Power BI
 - Data Visualization
@@ -120,29 +124,13 @@ This helps businesses identify high-value customers and repeat buyers.
 
 ---
 
-## Repository Structure
+# 🚀 Future Improvements
 
-dataset/  
-global_superstore.csv  
-
-dashboard/  
-global_superstore_dashboard.pbix  
-
-screenshots/  
-executive_overview.png  
-sales_profit_analysis.png  
-product_analysis.png  
-customer_analysis.png  
-
-README.md
+- Add sales forecasting using time-series modeling
+- Implement predictive customer segmentation
+- Integrate real-time data refresh
+- Expand KPIs with advanced DAX measures
 
 ---
 
-## Future Improvements
-
-- Implement sales forecasting using time-series models
-- Add predictive analytics for customer segmentation
-- Integrate real-time data updates
-- Expand analysis with advanced KPIs
-
----
+⭐ If you found this project interesting, feel free to star the repository!
